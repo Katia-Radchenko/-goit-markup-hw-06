@@ -60,7 +60,7 @@ ul {
     color: var(--pressed-state);
 }
 
-address .contact-list{
+.address  .contact-list{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
