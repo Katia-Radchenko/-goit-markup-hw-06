@@ -21,6 +21,9 @@ a {
 ul {
     list-style: none;
 }
+address{
+font-style: normal;
+}
 
 /* header */
 
@@ -47,7 +50,7 @@ ul {
 
 
 .list .link {
-    color: var(--dark-color);
+    color: var(--background-color-page-header);
 }
 
 .link:hover,
@@ -61,7 +64,6 @@ ul {
 }
 
 .address  .contact-list{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -132,6 +134,9 @@ ul {
 
 .our-team {
     background-color: var(--light);
+}
+.team-item{
+    background-color: var(--background-color);
 }
 
 /* footer */
