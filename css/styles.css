@@ -6,14 +6,11 @@
     --light: #F4F4FD;
     --pressed-state: #404BBF;
     --primary-brand: #4D5AE5;
-    --border: #F4F4FD;
-    --box-shadow-button: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--dark-color);
+    color: var(--text);
     background: var(--background-color);
 }
 
@@ -28,19 +25,20 @@ ul {
 /* header */
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.117;
     color: var(--primary-brand);
     letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 
 .logo-name {
     color: var(--dark-color);
 }
 
-.nav-list {
+.list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -48,7 +46,7 @@ ul {
 }
 
 
-.nav-list .link {
+.list .link {
     color: var(--dark-color);
 }
 
@@ -95,8 +93,6 @@ ul {
     letter-spacing: 0.04em;
     color: var(--background-color);
     background-color: var(--primary-brand);
-    box-shadow: var(--box-shadow-button);
-    border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -156,8 +152,6 @@ ul {
     letter-spacing: 0.04em;
     text-align: center;
     color: var(--primary-brand);
-    background: var(--light);
-    border: 1px solid var(--border);
 }
 
 .button:hover,
