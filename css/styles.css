@@ -17,17 +17,19 @@ body {
 .link {
     text-decoration: none;
 }
+
 .list {
     list-style: none;
 }
-address{
-font-style: normal;
+
+address {
+    font-style: normal;
 }
 
 /* header */
 
 .logo {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -62,7 +64,7 @@ font-style: normal;
     color: var(--pressed-state);
 }
 
-.address  .contact-list{
+.address .contact-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -112,8 +114,8 @@ font-style: normal;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-        color: var(--background-color-page-header);
-            text-transform: capitalize
+    color: var(--background-color-page-header);
+    text-transform: capitalize
 }
 
 .title {
@@ -134,7 +136,8 @@ font-style: normal;
 .our-team {
     background-color: var(--light);
 }
-.team-item{
+
+.team-item {
     background-color: var(--background-color);
 }
 
