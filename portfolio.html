@@ -18,57 +18,65 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav>
-          <a href="./index.html" class="logo link"
-            >Web<span class="logo-name">Studio</span></a
-          >
-          <ul class="nav-list list">
-            <li><a href="./index.html" class="link">Studio</a></li>
-            <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-            <li><a href="" class="link"> Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="contact-list list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="contact-link link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="contact-link link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="header-container">
+          <nav class="nav">
+            <a href="./index.html" class="logo link"
+              >Web<span class="logo-name">Studio</span></a
+            >
+            <ul class="list header-nav">
+              <li class="header-nav-list">
+                <a href="./index.html" class="nav-list link">Studio</a>
+              </li>
+              <li class="header-nav-list">
+                <a href="./portfolio.html" class="nav-list link">Portfolio</a>
+              </li>
+              <li class="header-nav-list">
+                <a href="" class="nav-list link"> Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address">
+            <ul class="contact-list list">
+              <li class="header-contact-list">
+                <a href="mailto:info@devstudio.com" class="contact-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="header-contact-list">
+                <a href="tel:+110001111111" class="contact-link link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
-      <section>
+      <section class="section-portfolio">
         <div class="container">
-          <h1>Portfolio</h1>
-          <ul class="portfolio-buttons list">
-            <li>
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="portfolio-buttons-list list">
+            <li class="portfolio-buttons-item">
               <button type="button" class="button">All</button>
             </li>
-            <li>
+            <li class="portfolio-buttons-item">
               <button type="button" class="button">Web Site</button>
             </li>
-            <li>
+            <li class="portfolio-buttons-item">
               <button type="button" class="button">App</button>
             </li>
-            <li>
+            <li class="portfolio-buttons-item">
               <button type="button" class="button">Design</button>
             </li>
-            <li>
+            <li class="portfolio-buttons-item">
               <button type="button" class="button">Marketing</button>
             </li>
           </ul>
           <ul class="portfolio-list list">
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/interface.jpg"
@@ -76,11 +84,13 @@
                   width="360"
                   height="300"
                 />
+                <div class="portfolio-container">
                 <h2 class="title">Banking App Interface Concept</h2>
                 <p class="description">App</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/payment.jpg"
@@ -88,11 +98,13 @@
                   width="360"
                   height="300"
                 />
+                <div class="portfolio-container">
                 <h2 class="title">Cashless Payment</h2>
                 <p class="description">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/meditation-app.jpg"
@@ -100,11 +112,13 @@
                   width="360"
                   height="300"
                 />
+                  <div class="portfolio-container">
                 <h2 class="title">Meditation App</h2>
                 <p class="description">App</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/taxi-service.jpg"
@@ -112,11 +126,13 @@
                   width="360"
                   height="300"
                 />
+                <div class="portfolio-container">
                 <h2 class="title">Taxi Service</h2>
                 <p class="description">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/screen-illustrations.jpg"
@@ -124,11 +140,13 @@
                   width="360"
                   height="300"
                 />
+                  <div class="portfolio-container">
                 <h2 class="title">Screen Illustrations</h2>
                 <p class="description">Design</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/online-courses.jpg"
@@ -136,11 +154,13 @@
                   width="360"
                   height="300"
                 />
+                <div class="portfolio-container">
                 <h2 class="title">Online Courses</h2>
                 <p class="description">Marketing</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/instagram.jpg"
@@ -148,11 +168,13 @@
                   width="360"
                   height="300"
                 />
+                <div class="portfolio-container">
                 <h2 class="title">Instagram Stories Concept</h2>
                 <p class="description">Design</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/organic-food.jpg"
@@ -160,11 +182,13 @@
                   width="360"
                   height="300"
                 />
+                <div class="portfolio-container">
                 <h2 class="title">Organic Food</h2>
                 <p class="description">Web Site</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <a href="" class="link">
                 <img
                   src="./images/coffee.jpg"
@@ -172,8 +196,10 @@
                   width="360"
                   height="300"
                 />
+                  <div class="portfolio-container">
                 <h2 class="title">Fresh Coffee</h2>
                 <p class="description">Web Site</p>
+                </div>
               </a>
             </li>
           </ul>
