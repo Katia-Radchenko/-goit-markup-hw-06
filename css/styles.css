@@ -230,6 +230,7 @@ overflow: hidden;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--background-color-page-header);
+    margin-bottom: 8px;
 }
 
 .description {
@@ -237,7 +238,6 @@ overflow: hidden;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
-    padding-top: 8px;
 }
 
 .our-work-list{
@@ -254,9 +254,12 @@ overflow: hidden;
 .team-list{
     display: flex;
 }
+.team-item{
+border-radius: 0px 0px 4px 4px;
+}
 .team-container{
     background-color: var(--background-color);
-    padding: 32px 0 32px 0;
+    padding: 32px 16px
 }
 .team-container .title {
     text-align: center;
