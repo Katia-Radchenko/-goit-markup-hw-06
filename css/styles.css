@@ -157,11 +157,10 @@ img{
     color: var(--background-color);
     max-width: 496px;
     margin: 0 auto;
+    padding-bottom: 48px;
 
 }
-.container-hero-button{
-    margin-top: 48px;
-}
+
 
 .button-hero {
     font-family: "Roboto", sans-serif;
@@ -177,6 +176,7 @@ img{
     color: var(--background-color);
     background-color: var(--primary-brand);
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
