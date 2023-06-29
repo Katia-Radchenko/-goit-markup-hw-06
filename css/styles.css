@@ -89,11 +89,9 @@ list-style: none;
 }
 
 .header-nav-list{
-    padding: 24px 0;
     margin-right: 40px;
 }
 .header-contact-list {
-    padding: 24px 0;
     margin-right: 40px;
 }
 .header-nav-list:last-child {
@@ -107,6 +105,7 @@ list-style: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 
@@ -134,6 +133,7 @@ list-style: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 
