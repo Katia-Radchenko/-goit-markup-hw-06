@@ -40,8 +40,7 @@ img{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0 15px;
 }
 .section {
     padding-top: 120px;
@@ -86,14 +85,17 @@ img{
 }
 .header-nav{
     display: flex;
-    padding: 24px 0 24px 0;
+    padding: 24px 0;
 }
 
-.header-nav-list:not(:last-child),
-.header-contact-list:not(:last-child){
+.header-nav-list,
+.header-contact-list{
     padding-right: 40px;
 }
-
+.header-nav-list:last-child,
+.header-contact-list:last-child {
+    padding-right: 0px;
+}
 .nav-list {
     font-weight: 500;
     font-size: 16px;
