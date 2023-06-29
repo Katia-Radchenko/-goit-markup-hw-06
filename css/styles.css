@@ -13,17 +13,53 @@ body {
     color: var(--text);
     background: var(--background-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+address {
+    font-style: normal;
+}
+img{
+    display: block;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section:nth-child(2n+1) {
+    padding-top: 0;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style: none;
-}
-
-address {
-    font-style: normal;
 }
 
 /* header */
@@ -35,11 +71,25 @@ address {
     line-height: 1.17;
     color: var(--primary-brand);
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-name {
     color: var(--dark-color);
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    padding: 24px 0 24px 0;
+}
+
+.header-nav-list:not(:last-child),
+.header-contact-list:not(:last-child){
+    padding-right: 40px;
 }
 
 .nav-list {
@@ -53,7 +103,9 @@ address {
 .list .link {
     color: var(--background-color-page-header);
 }
-
+.address{
+    margin-left: 332px;
+}
 .link:hover,
 .link:focus {
     color: var(--pressed-state);
@@ -63,6 +115,10 @@ address {
  .contact-link:focus {
     color: var(--pressed-state);
 }
+.contact-list{
+    display: flex;
+    padding: 24px 0 24px 0;
+}
 
 .contact-link{
     font-weight: 400;
@@ -71,14 +127,15 @@ address {
     letter-spacing: 0.02em;
 }
 
-/* .contact-list .contact-link {
-    color: var(--text);
-} */
+
 
 /* section hero */
 
 .hero {
     background: var(--background-color-page-header);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
 }
 
 .hero-title {
@@ -88,6 +145,12 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--background-color);
+    max-width: 496px;
+    margin: 0 auto;
+
+}
+.container-hero-button{
+    margin-top: 48px;
 }
 
 .hero-button {
@@ -98,7 +161,12 @@ address {
     letter-spacing: 0.04em;
     color: var(--background-color);
     background-color: var(--primary-brand);
-    cursor: pointer
+    border-radius: 4px;
+    border: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    padding: 16px 32px;
+
 }
 
 .hero-button:hover,
@@ -108,6 +176,27 @@ address {
 
 /* section advantages and our-team */
 
+.visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.advantages-list{
+    display: flex;
+}
+.advantages-list-item:not(:last-child),
+.our-work-item:not(:last-child),
+.team-item:not(:last-child) {
+    margin-right: 24px;
+}
 .headlines {
     font-weight: 700;
     font-size: 36px;
@@ -115,7 +204,8 @@ address {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--background-color-page-header);
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .title {
@@ -131,19 +221,41 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
+    padding-top: 8px;
 }
+
+.our-work-list{
+    display: flex;
+}
+/* {
+    margin-right: 24px;
+} */
 
 .our-team {
     background-color: var(--light);
+    padding-bottom: 120px;
+}
+.team-list{
+    display: flex;
+}
+.team-container{
+    background-color: var(--background-color);
+    padding: 32px 0 32px 0;
+}
+.team-container .title {
+    padding-bottom: 8px;
+    text-align: center;
 }
 
-.team-item {
-    background-color: var(--background-color);
+.team-container .description{
+    text-align: center;
 }
 
 /* footer */
 .footer {
     background: var(--background-color-page-header);
+    padding-top: 101px;
+    padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -155,7 +267,10 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light);
+    max-width: 264px;
+    margin-top: 16px;
 }
+
 
 /* portfolio */
 
