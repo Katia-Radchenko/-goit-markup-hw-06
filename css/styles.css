@@ -58,7 +58,9 @@ img{
 }
 
 .list {
-    list-style: none;
+list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 /* header */
@@ -207,7 +209,9 @@ img{
 .team-item:not(:last-child) {
     margin-right: 24px;
 }
-
+.advantages-list-item{
+    width: calc((100% - 3 * 24px) / 4);
+}
 .headlines {
     font-weight: 700;
     font-size: 36px;
@@ -326,7 +330,7 @@ padding-top: 96px;
 }
 
 .portfolio-list-item{
-padding: 24px 0;
+    padding: 24px 0;
 }
 .portfolio-container{
 padding: 32px 16px 32px 16px ;
