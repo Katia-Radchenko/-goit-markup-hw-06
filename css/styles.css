@@ -88,18 +88,18 @@ img{
 }
 
 .header-nav-list{
-    padding-right: 40px;
-    padding-top: 24px;
+    margin-right: 40px;
+    margin-top: 24px;
     padding-bottom: 24px;
 }
 .header-contact-list {
-    padding-right: 40px;
+    margin-right: 40px;
 }
 .header-nav-list:last-child {
-    padding-right: 0px;
+    margin-right: 0px;
 }
 .header-contact-list:last-child{
-    padding-right: 0px;
+    margin-right: 0px;
 }
 .nav-list {
     font-weight: 500;
