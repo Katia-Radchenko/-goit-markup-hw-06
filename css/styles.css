@@ -55,6 +55,7 @@ img{
 }
 .link {
     text-decoration: none;
+    display: block;
 }
 
 .list {
@@ -204,14 +205,15 @@ list-style: none;
 .advantages-list{
     display: flex;
 }
+.advantages-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 .advantages-list-item:not(:last-child),
 .our-work-item:not(:last-child),
 .team-item:not(:last-child) {
     margin-right: 24px;
 }
-.advantages-list-item{
-    width: calc((100% - 3 * 24px) / 4);
-}
+
 .headlines {
     font-weight: 700;
     font-size: 36px;
