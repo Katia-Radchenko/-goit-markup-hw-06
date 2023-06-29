@@ -204,13 +204,8 @@ overflow: hidden;
 }
 .advantages-list-item:not(:last-child),
 .our-work-item:not(:last-child),
-.team-item:not(:last-child),
-.portfolio-buttons-item:not(:last-child),
-.portfolio-list-item:not(:last-child) {
+.team-item:not(:last-child) {
     margin-right: 24px;
-}
-.portfolio-list-item:nth-child(2n+1) {
-    padding-right: 0;
 }
 
 .headlines {
@@ -293,8 +288,8 @@ border-radius: 0px 0px 4px 4px;
 
 /* portfolio */
 .section-portfolio{
-    padding-top:96px ;
-    padding-bottom: 72px;
+padding-top: 96px;
+    padding-bottom: 120px;
 }
 .portfolio-buttons-list{
     display: flex;
@@ -320,10 +315,13 @@ border-radius: 0px 0px 4px 4px;
 .button:focus {
     background: var(--pressed-state);
     color: var(--background-color);
+    border: 1px solid transparent;
 }
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .portfolio-list-item{
