@@ -272,21 +272,22 @@ border-radius: 0px 0px 4px 4px;
 /* footer */
 .footer {
     background: var(--background-color-page-header);
-    padding-top: 101px;
-    padding-bottom: 100px;
+    padding: 100px 0
 }
 
 .logo-footer {
     color: var(--light);
 }
-
+.link-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light);
     max-width: 264px;
-    margin-top: 16px;
 }
 
 
