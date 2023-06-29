@@ -91,9 +91,8 @@ list-style: none;
 }
 
 .header-nav-list{
+    padding: 24px 0;
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-contact-list {
     margin-right: 40px;
