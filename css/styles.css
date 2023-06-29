@@ -186,17 +186,17 @@ img{
 
 /* section advantages and our-team */
 
-.visually-hidden{
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .advantages-list{
@@ -326,7 +326,7 @@ padding-top: 96px;
 }
 
 .portfolio-list-item{
-    padding-bottom: 48px;
+padding: 24px 0;
 }
 .portfolio-container{
 padding: 32px 16px 32px 16px ;
