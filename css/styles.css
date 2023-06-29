@@ -60,8 +60,6 @@ img{
 
 .list {
 list-style: none;
-    padding-left: 0;
-    margin: 0;
 }
 
 /* header */
@@ -95,9 +93,8 @@ list-style: none;
     margin-right: 40px;
 }
 .header-contact-list {
+        padding: 24px 0;
     margin-right: 40px;
-    padding-top: 24px;
-        padding-bottom: 24px;
 }
 .header-nav-list:last-child {
     margin-right: 0px;
