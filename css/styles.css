@@ -611,7 +611,7 @@ img {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
-  padding: 0
+  padding: 0;
   cursor: pointer;
 }
 
