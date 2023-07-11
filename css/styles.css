@@ -552,24 +552,21 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-link:hover .portfolio-description-overly,
-.portfolio-link:focus .portfolio-description-overly {
+
+.portfolio-list-item:hover .portfolio-description,
+.portfolio-list-item:focus .portfolio-description {
   transform: translateY(0);
 }
 
 .portfolio-description {
+  position: absolute;
+  top: 0;
+  left: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light);
-}
-
-.portfolio-description-overly {
-  position: absolute;
-  top: 0;
-  left: 0;
   background-color: var(--primary-brand);
-  width: 100%;
   height: 100%;
   padding: 40px 32px;
   transform: translateY(100%);
