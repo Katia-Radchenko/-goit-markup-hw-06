@@ -25,6 +25,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.customers-list svg {
+   fill:  var(--customers-color);
+}
 
 ul,
 ol {
@@ -64,6 +67,7 @@ img {
 .link {
   text-decoration: none;
   display: block;
+  color: #404bbf;
 }
 
 .list {
@@ -125,7 +129,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  color: #404bbf;
   position: relative;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -378,10 +381,12 @@ img {
   width: 168px;
   height: 88px;
   border-radius: 4px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--customers-color);
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--customers-color);
+  transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icons {
