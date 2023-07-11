@@ -73,7 +73,7 @@ img {
 
 /* header */
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -125,6 +125,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+ color: #404bbf;
 }
 
 .current::after {
@@ -159,11 +160,13 @@ img {
 .link:hover,
 .link:focus {
   color: var(--pressed-state);
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: var(--pressed-state);
+  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list {
@@ -193,6 +196,9 @@ img {
   text-align: center;
   background-size: cover;
   background-position: center center;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title {
@@ -337,7 +343,7 @@ img {
   gap: 24px;
 }
 
-.social-icon-item {
+.sprite-list {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -348,8 +354,8 @@ img {
   justify-content: center;
 }
 
-.social-icon-item:hover,
-.social-icon-item:focus {
+.sprite-list:hover,
+.sprite-list:focus {
   background: var(--pressed-state);
   transition: transform 300ms ease-in-out;
 }
