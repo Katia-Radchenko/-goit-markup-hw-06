@@ -553,8 +553,8 @@ img {
 }
 
 
-.portfolio-list-item:hover .portfolio-description,
-.portfolio-list-item:focus .portfolio-description {
+.portfolio-link:hover .portfolio-description,
+.portfolio-link:focus .portfolio-description {
   transform: translateY(0);
 }
 
