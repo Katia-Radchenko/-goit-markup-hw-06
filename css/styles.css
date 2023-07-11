@@ -140,8 +140,12 @@ img {
   border-radius: 2px;
   background-color: var(--pressed-state);
 }
+.current, .current-portfolio{
+  color: var(--pressed-state);
 
-/* .active-portfolio::after {
+}
+
+.current-portfolio::after {
     content: '';
     position: absolute;
     left: 0;
@@ -150,10 +154,8 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: var(--pressed-state);
-} */
-.list .link {
-
 }
+
 
 .address {
   margin-left: auto;
@@ -182,6 +184,7 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--background-color-page-header);
 }
 
 /* section hero */
