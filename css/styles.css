@@ -488,6 +488,7 @@ img {
 
 .subscribe-form {
     display: flex;
+    gap: 24px;
 }
 
 .subscribe-input {
@@ -495,12 +496,15 @@ img {
     color: var(--background-color);
     width: 264px;
     height: 40px;
-    margin-right: 24px;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    padding-left: 16px;
 }
 
 input::placeholder {
@@ -509,7 +513,6 @@ input::placeholder {
     color: var(--background-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-left: 16px;
 }
 
 .subscribe-button {
@@ -519,14 +522,17 @@ input::placeholder {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     color: var(--background-color);
-    padding: 8px 24px;
     border-radius: 4px;
     background: var(--primary-brand);
     border: none;
-    gap: 16px;
     fill: var(--background-color);
+    min-width: 165px;
+    cursor: pointer;
+}
+.input{
+    margin-left: 16px;
 }
 
 /* portfolio */
