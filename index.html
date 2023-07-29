@@ -60,77 +60,79 @@
       type='button'
       aria-expanded='false'
       aria-controls='mobile-menu'>
-      <svg class='icon' width='40' height='40'>
+      <svg class='icon' width='32' height='22'>
         <use href='./images/icons.svg#icon-menu-hamburger'></use>
       </svg>
     </button>
 
 
     <div class='menu-container js-menu-container' id='mobile-menu'>
-      <ul class='nav-list list'>
-        <li class='nav-list__item'>
-          <a href='./index.html' class='nav-list__link nav-list__link--current link'>Studio</a>
-        </li>
-        <li class='nav-list__item'>
-          <a href='./portfolio.html' class='nav-list__link link'>Portfolio</a>
-        </li>
-        <li class='nav-list__item'><a href='' class='nav-list__link link'>Contacts</a></li>
-      </ul>
-      <div class='contacts-wrapper'>
-        <address>
-          <ul class='contacts-list list'>
-            <li class='contacts-list__item'>
-              <a href='tel:+380961111111' class='contacts-list__link--big link'
-              >+38 096 111 11 11</a
-              >
+      <div class='container-width'>
+        <ul class='nav-list list'>
+          <li class='nav-list__item'>
+            <a href='./index.html' class='nav-list__link nav-list__link--current link'>Studio</a>
+          </li>
+          <li class='nav-list__item'>
+            <a href='./portfolio.html' class='nav-list__link link'>Portfolio</a>
+          </li>
+          <li class='nav-list__item'><a href='' class='nav-list__link link'>Contacts</a></li>
+        </ul>
+        <div class='contacts-wrapper'>
+          <address>
+            <ul class='contacts-list list'>
+              <li class='contacts-list__item'>
+                <a href='tel:+380961111111' class='contacts-list__link--big link'
+                >+38 096 111 11 11</a
+                >
+              </li>
+              <li class='contacts-list__item'>
+                <a
+                  href='mailto:info@devstudio.com'
+                  class='contacts-list__link--small link'
+                >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class='icons-list-mobile list'>
+            <li class='social-icon-item'>
+              <a class='sprite-list-footer link' href=''>
+                <svg class='sprite' width='24' height='24'>
+                  <use href='./images/icons.svg#icon-instagram'></use>
+                </svg>
+              </a>
             </li>
-            <li class='contacts-list__item'>
-              <a
-                href='mailto:info@devstudio.com'
-                class='contacts-list__link--small link'
-              >info@devstudio.com</a
-              >
+            <li class='social-icon-item'>
+              <a class='sprite-list-footer link' href=''>
+                <svg class='sprite' width='24' height='24'>
+                  <use href='./images/icons.svg#icon-twitter'></use>
+                </svg>
+              </a>
+            </li>
+            <li class='social-icon-item'>
+              <a class='sprite-list-footer link' href=''>
+                <svg class='sprite' width='24' height='24'>
+                  <use href='./images/icons.svg#icon-facebook'></use>
+                </svg>
+              </a>
+            </li>
+            <li class='social-icon-item'>
+              <a class='sprite-list-footer link' href=''>
+                <svg class='sprite' width='24' height='24'>
+                  <use href='./images/icons.svg#icon-linkedin'></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class='icons-list-mobile list'>
-          <li class='social-icon-item'>
-            <a class='sprite-list-footer link' href=''>
-              <svg class='sprite' width='24' height='24'>
-                <use href='./images/icons.svg#icon-instagram'></use>
-              </svg>
-            </a>
-          </li>
-          <li class='social-icon-item'>
-            <a class='sprite-list-footer link' href=''>
-              <svg class='sprite' width='24' height='24'>
-                <use href='./images/icons.svg#icon-twitter'></use>
-              </svg>
-            </a>
-          </li>
-          <li class='social-icon-item'>
-            <a class='sprite-list-footer link' href=''>
-              <svg class='sprite' width='24' height='24'>
-                <use href='./images/icons.svg#icon-facebook'></use>
-              </svg>
-            </a>
-          </li>
-          <li class='social-icon-item'>
-            <a class='sprite-list-footer link' href=''>
-              <svg class='sprite' width='24' height='24'>
-                <use href='./images/icons.svg#icon-linkedin'></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <button
-          class=' modal-close  js-close-menu'
-          type='button'
-        >
-          <svg class='modal-close-mobile' width='8' height='8'>
-            <use href='./images/icons.svg#icon-close-black'></use>
-          </svg>
-        </button>
+          <button
+            class=' modal-close  js-close-menu'
+            type='button'
+          >
+            <svg class='modal-close-mobile' width='8' height='8'>
+              <use href='./images/icons.svg#icon-close-black'></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -201,20 +203,24 @@
       </ul>
     </div>
   </section>
-  <section class='section our-work-section'>
+  <section class=' our-work-section'>
     <div class='container '>
       <h2 class='headlines'>What are we doing</h2>
       <ul class='list our-work-list'>
         <li class='our-work-item'>
           <img
+            srcset='./images/monitor.jpg 1x,
+                    ./images/monitor-2x.jpg 2x'
             src='./images/monitor.jpg'
             width='360'
             height='300'
-            alt='monitor'
+            alt='Product Designer'
           />
         </li>
         <li class='our-work-item'>
           <img
+            srcset='./images/screenshot.jpg 1x,
+                    ./images/screenshot-2x.jpg 2x'
             src='./images/screenshot.jpg'
             width='360'
             height='300'
@@ -223,6 +229,8 @@
         </li>
         <li class='our-work-item'>
           <img
+            srcset='./images/phone.jpg 1x,
+                    ./images/phone-2x.jpg 2x'
             src='./images/phone.jpg'
             width='360'
             height='300'
@@ -587,6 +595,12 @@
     </form>
   </div>
 </div>
+<script
+  defer
+  src='https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js'
+  integrity='sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=='
+  crossorigin='anonymous'
+></script>
 <script src='./js/modal.js'></script>
 <script src='js/mobile-menu.js'></script>
 </body>
